@@ -17,6 +17,9 @@
     "port"
   ],
   "author": "yosuke-furukawa",
+  "bin": {
+    "agreed-server": "./bin/agreed-server.js"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/recruit-tech/agreed-server/issues"
@@ -30,6 +33,7 @@
   "devDependencies": {
     "assert-stream": "^1.0.0",
     "eater": "^3.0.0-5",
+    "must-call": "^1.0.0",
     "plz-port": "^1.0.0"
   }
 }
