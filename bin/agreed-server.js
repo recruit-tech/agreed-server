@@ -16,7 +16,8 @@ const argv = minimist(process.argv.slice(2), {
     'help',
     'version',
     'logging',
-    'strict'
+    'strict',
+    'cors'
   ],
   alias: {
     l: 'logging'
@@ -43,6 +44,7 @@ Options:
   --proxy <hostname>                 Proxy host.
   --proxy-prefix-path <prefix>       Proxy server path prefix.
   -l, --logging                      Logs requests in console.
+  --cors                             Enable CORS.
   --strict                           Run strict mode.
 
 Examples:
